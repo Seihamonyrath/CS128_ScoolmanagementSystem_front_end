@@ -1,0 +1,112 @@
+.container
+{
+    width: 100%;
+    height: 1900px;
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.Image{
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    filter: brightness(0.5);
+}
+.welcomebox
+{
+    position: relative;
+    width: 800px;
+    height: 250px;
+    margin: 300px 0 350px 200px;
+}
+.welcomebox h1
+{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 10px;
+}
+.welcomebox p
+{
+    font-size: 50px;
+    color: white;
+}
+.welcomebox #subtitle
+{
+    width: 700px;
+    height: 50px;
+    margin-bottom: 60px;
+
+}
+.welcomebox button
+{
+    width: 200px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #6275ff 100%);
+}
+.welcomebox button:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+.welcomebox button:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+.welcomebox button:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+.headline 
+{
+   width: 500px;
+   height: 200px;
+   margin: 0 auto;
+    padding: 0 20px;
+}
+#articleheadline
+{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.articlehead1
+{
+    position: absolute;
+}
+.articlehead1
+{
+    width: 1500px;
+    height: 400px;
+    margin: 20px 0 80px 180px;
+    padding-left: 50px;
+    display: flex;
+}
+
+
+.articleinfo
+{
+    padding: 0 30px;
+    height: 400px;
+}
+.articleinfo .image
+{
+    width: 450px;
+    height: 250px;
+}
+.articleinfo h6
+{
+   padding-top: 15px;
+   padding-bottom: 5px ;
+   font-size: 16px;
+   
+}
+.articleinfo h3
+{
+   padding: 10px 0;
+   font-size: 20px;
+}
+.articleinfo p
+{
+   margin-bottom: 20px;
+}
